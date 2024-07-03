@@ -1,0 +1,358 @@
+#myP{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+#myD{
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    overflow: scroll;
+}
+#my1{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+    overflow-y: scroll;
+    max-height: 200px;
+}
+#dedicated{
+    background-color: rgb(15, 178, 178);
+}
+
+#my2{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+#myB{
+    background-color: rgb(11, 148, 112);
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#para{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#usera{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#myB:hover{
+    background-color: deeppink;
+}
+#text{
+    color: rgb(4, 43, 26);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#my3{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+
+.buttons{
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(11, 19, 107);
+}
+
+#my31{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#label{
+    color: aqua;
+    font-size: 40px;
+}
+
+#my4{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+
+#diceH{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#three{
+    background-color: rgb(11, 148, 112);
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+#three:hover{
+    background-color: chocolate;
+}
+.roll{
+    font-size: 25px;
+}
+.p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#thre{
+    background-color: rgb(11, 148, 112);
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+#thre:hover{
+    background-color: rgb(184, 17, 17);
+}
+
+#my5{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+
+#Enter{
+    font-size: 20px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+#texte{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#testAge{
+    background-color: orange;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+}
+#testAge:hover{
+    background-color: lime;
+}
+
+#my6{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+#my61{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#check{
+    font-size: 15px;
+    background-color: rgb(213, 218, 78);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#check:hover{
+    background-color: blueviolet;
+}
+
+#my7{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+
+#buttonGuess{
+    background-color: rgb(143, 218, 52);
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+#buttonGuess:hover{
+    background-color: rgb(226, 43, 156);
+}
+.Guesss{
+    color: darkorange;
+    font-size: 25px;
+    font-weight: bold;
+}
+#guessInput{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#my8{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+form{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+
+#p{
+font-weight: bold;
+font-size: 30px;
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#CTF{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#converte{
+    background-color: yellowgreen;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#converte:hover{
+    background-color: rgb(11, 142, 29);
+}
+#resulte{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#my9{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+#my10{
+    background-color: rgba(225, 230, 234, 0.92);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+#DiceRoller{
+    color: rgb(100, 177, 13);
+    font-weight: bold;
+    font-size: 30px;
+}
+#numberOfDice{
+    color: rgb(100, 177, 13);
+    font-weight: bold;
+    font-size: 20px;
+}
+#diceRollNumber{
+    border-radius: 5px;
+    font-size: 25px;
+    max-width: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ROLL{
+    background-color: moccasin;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+#ROLL:hover{
+    background-color: rgb(229, 158, 34);
+}
+#ROLL:active{
+    background-color: rgb(95, 66, 16);
+}
+
+#diceImages img{
+    width: 100px;
+    margin: 5px;
+}
+
+#diceResult{
+margin: 25px;
+}
+
+#Honore{
+    color: green;
+    font-size: 25px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    background-color: blanchedalmond;
+    box-shadow: 15px 15px 15px;
+}
+#my11 {
+    margin: 0;
+    overflow: hidden;
+}

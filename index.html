@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="my1">
+    <div id="myP"></div><br>
+    <p id="myD"></p><br>
+    <p id="Honore">Honore is my little brother</p><br>
+    <p id="dedicated">This work is dedicated:<br>
+        To our parents <br>
+        To our family members <br>
+        To our brothers and sisters <br>
+    </p>
+</div><br><br>
+<div id="my2">
+    <h3 id="para">My study</h3><br>
+    <label id="usera">username</label><br><br>
+    <input type="text" id="text"><br><br>
+    <button id="myB">submit</button>
+</div><br><br>
+    
+<div id="my3">
+    <p id="my31">Count: <label id="label">0</label></p>
+    <div id="container">
+        <button id="increase" class="buttons">Up</button>
+        <button id="decrease" class="buttons">Down</button>
+        <button id="reset"    class="buttons">Delete</button>
+    </div>
+</div><br>
+<div id="my4">   
+    <p id="diceH">Dice rolling</p> 
+    <p class="p">first  dice: <label id="dice1" class="roll">0</label> </p>
+    <p class="p">seco dice: <label   id="dice2" class="roll">0</label> </p>
+    <p class="p">third  dice: <label id="dice3" class="roll">0</label> </p>
+    <button id="three">Roll</button>
+    <button id="thre">Clear</button><br><br>
+</div><br>
+    
+<div id="my5">
+    <label id="Enter">Enter your age</label><br><br>
+    <input type="text" id="texte"><br><br>
+    <button id="testAge">submit</button><br><br>
+    <p id="result"></p>
+</div><br>
+
+   <div id="my6">
+    <input type="checkBox" id="checkBox" name="card">
+    <label for="checkBox" id="my61">Subscribe</label><br><br>
+   
+    <input type="radio" id="visa" name="card">
+    <label for="visa" id="my61">visa</label><br><br>
+
+    <input type="radio" id="masterCard" name="card">
+    <label for="masterCard" id="my61">masterCard</label><br><br>
+
+    <input type="radio" id="paypal" name="card">
+    <label for="paypal" id="my61">paypal</label><br><br>
+
+    <button id="check">Check</button>
+
+    <p id="subscribeResult"></p>
+    <p id="paymentMethod"></p>
+   </div><br>
+
+   <div id="my7">
+    <p class="Guesss">Guess <br><input type="text" id="guessInput"></p>
+    <p class="Guesss">UserGuess: <label id="UserGuessedNumber">0</label></p>
+    <p class="Guesss">computerGuess: <label id="computerChoiceNumber">0</label></p>
+    <p class="Guesss">attempts: <label id="numberOfAttempts">0</label></p>
+    <button id="buttonGuess">submit</button>
+   </div><br>
+
+
+   <div id="my8">
+    <P >player1: ???<input type="text" id="input1"><button id="button11">submit1</button></P>
+    <P >player2:??? <input type="text" id="input2"><button id="button22">submit2</button></P>
+    <P id="player1">play result1:??? </P>
+    <P id="player2">play result2:?? </P>
+    <p id="btnTwoPlayer">attempts:</p>
+   </div>
+
+   <div><br>
+    <form>
+        <p id="p">Temperature Conversion</p>
+        <input type="number" id="textBox" value="0"><br><br>
+    
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit" id="CTF">Celcius to Fahrenheit</label><br><br>
+    
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius" id="CTF">Fahrenheit to Celcius</label><br><br>
+    
+        <button type="button" id="converte" onclick="convert()">submit</button><br>
+        <p id="resulte"></p>
+    </form>
+   </div><br><br>
+    <div id="my9">
+        <Form action="/whatupp/what.html">
+            <p id="">Form</p>
+            <label id="Email">Email</label>
+            <input type="text" id="emailInput" placeholder="Email" ><br><br>
+            <label id="FormUser">username:</label>
+            <input type="text" id="usernameInput" placeholder="username" ><br><br>
+            <label id="FormPass">password:</label>
+            <input type="text" name="password" id="passwordInput" placeholder="password" ><br><br>
+            <button id="signIn" >SIGN UP</button>
+            <button id="signUp">SIGN IN</button><br><br>
+            <label id="Create">Create Account</label>
+        </Form>
+    </div><br>
+
+    <div id=my10>
+        <P id="DiceRoller">Dice Roller</P>
+        <label id="numberOfDice">number of dice</label><br>
+        <input type="number" value="1" min="1" id="diceRollNumber">
+        <div id="diceImages"></div>
+        <div id="diceResult"></div>
+        <button onclick="rollingDice()" id="ROLL">ROLL</button>
+    </div><br><br>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
